@@ -133,6 +133,13 @@
                     <downloadJavadocs>true</downloadJavadocs>
                 </configuration>
             </plugin>
+		<plugin>
+			<artifactId>maven-install-plugin</artifactId>
+			<version>2.5.2</version>
+			<configuration>
+				<skip>true</skip>
+			</configuration>
+		</plugin>
            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
