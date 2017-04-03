@@ -154,6 +154,6 @@
                 </configuration>
             </plugin>
         </plugins>
-        <finalname>bvb</finalname>
+        <finalName>bvb</finalName>
     </build>
 </project>
