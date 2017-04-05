@@ -4,7 +4,7 @@
 
 <html>
 <head>
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="resources/script/jquery-3.1.1.min.js"></script>
 <script type="text/javascript" src="resources/script/turn.min.js"></script>
 
 <style type="text/css">
