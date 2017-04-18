@@ -23,8 +23,47 @@ body{
 </head>
 <body>
 
-<div class="sample">
-	
+<div class="splash preview show-samples sample-steve-jobs show-bar">
+
+	<div class="center">
+	<div class="details">
+		<i class="turnjs"></i>
+		<h1>Make a flip book with HTML5</h1>
+		<ul>
+			<li>Works on most browsers and devices</li>
+			<li>Simple and clean API</li>
+			<li title="Minimized and Gzipped">Lightweight, 10K</li>
+		</ul>
+		<p class="production">
+			<a href="http://turnjs.com/confirm-download/5396f77366f55/turnjs4.zip" class="get-now">Download</a>
+		</p>
+		<div class="options">
+			<p><i class="icon github"></i> <a href="http://www.github.com/blasten/turn.js">Fork on GitHub</a> </p>
+		</div>
+	</div>
+
+	<div class="bookshelf">
+		<div class="shelf">
+			<div class="row-1">
+				<div class="loc">
+					<div> <div class="sample thumb1" sample="steve-jobs" style="visibility: hidden;"></div> </div>
+					<div> <div class="sample thumb2" sample="html5"></div> </div>
+					<div> <div class="sample thumb3" sample="docs"></div> </div>
+				</div>
+			</div>
+			<div class="row-2">
+				<div class="loc">
+					<div> <div class="sample thumb4" sample="magazine1"></div> </div>
+					<div> <div class="sample thumb5" sample="magazine2"></div> </div>
+					<div> <div class="sample thumb6" sample="magazine3"></div> </div>
+				</div>
+			</div>
+		</div>
+		<div class="suggestion">↑ Click a book or magazine to see turn.js in action</div>
+	</div>
+
+<!-- Samples-->
+	<div class="samples">
 		<div class="bar">
 			<div class="share">
 				<i class="icon table-contents" title="Table of contents"></i>
@@ -142,7 +181,13 @@ At Homestead, Steve befriended Bill Fernandez, a neighbor who shared his interes
 			<div id="slider" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"><a class="ui-slider-handle ui-state-default ui-corner-all" style="left: 8.92857%; z-index: 0;"></a></div>
 		</div>
 
-	
+	</div>
+
+<!-- End samples -->
+
+</div>
+<div class="gradient"></div>
+
 </div>
 
 <!-- <div id="magazine" style="marugin-left:8%">
