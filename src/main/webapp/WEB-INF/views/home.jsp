@@ -91,7 +91,7 @@ In just over 600 pages, the book covers Jobs' entire life, from his childhood in
 <span class="page-number">8</span></div></div><div style="top: 0px; left: 0px; overflow: hidden; z-index: 1; width: 460px; height: 582px; background-image: -moz-linear-gradient(0.785398rad, transparent 0.0690979%, rgba(0, 0, 0, 0.3) 0.0921305%, transparent 0.115163%); display: none;"></div></div><div class="page-wrapper" page="9" style="position: absolute; overflow: hidden; width: 460px; height: 582px; top: 9px; right: 20px; left: auto; z-index: 0; display: none;"><div style="position: absolute; top: 0px; left: 0px; overflow: hidden; z-index: auto; width: 742px; height: 742px; transform-origin: 0% 0% 0px;"><div class="own-size page p9 odd" style="width: 460px; height: 582px; float: left; position: absolute; top: 0px; left: 0px; bottom: auto; right: auto; transform-origin: 0% 0% 0px;"><div class="book-content">
 
 <p class="center-pic">
-	<img src="samples/steve-jobs/pics/books.jpg?p" style="width:350px; height:230px;">
+	<img src="./resources/pics/books.jpg?p" style="width:350px; height:230px;">
 </p>
 
 <p class="no-indent">
@@ -139,7 +139,7 @@ Silicon Valley. They adopted another baby, a girl called Patti, three years late
 <h2>Childhood</h2>
 
 <p> 
-<img class="left-pic zoom-this" src="samples/steve-jobs/pics/young.jpg?" width="100" height="113">Steve was quite a turbulent child. He really didn’t care about school for
+<img class="left-pic zoom-this" src="./resources/pics/young.jpg?" width="100" height="113">Steve was quite a turbulent child. He really didn’t care about school for
 some time — until he reached the 4th grade, and had Imogene “Teddy” Hill as a teacher.</p>
 
 <p>She did bribe him, with candy and $5 bills from her own money. He quickly became hooked — so</p>
@@ -171,7 +171,7 @@ Mr. McCollum. McCollum later recalled of one time when his pupil Steve called up
 
 <p>
 
-<img class="left-pic zoom-this" src="samples/steve-jobs/pics/highschool.jpg" width="172" height="159">
+<img class="left-pic zoom-this" src="./resources/pics/highschool.jpg" width="172" height="159">
 At Homestead, Steve befriended Bill Fernandez, a neighbor who shared his interests in electronics. It was Bill who first introduced him to another computer whiz kid, an older guy named Stephen Wozniak, or — as everybody used to call him — Woz. Steve and Woz met in 1969, when they were respectively 14 and 19. At the time, Woz was building a little computer board with Bill Fernandez that they called “the Cream Soda Computer”.</p>
 
 </div>
