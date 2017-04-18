@@ -50,7 +50,7 @@ body{
 							acceleration: true,
 							gradients: !$.isTouch,
 							elevation:30,
-							autocenter:true,
+							/*autocenter:true,*/
 							when: {
 								turned: function(e, page) {
 									console.log('Current view: ', $(this).turn('view'));
