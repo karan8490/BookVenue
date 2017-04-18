@@ -6,7 +6,12 @@
 <head>
 <script type="text/javascript" src="resources/script/jquery-3.1.1.min.js"></script>
 <script type="text/javascript" src="resources/script/turn.min.js"></script>
+<script type="text/javascript" src="resources/script/steve-jobs.js"></script>
 <link href="./resources/styles/home-page.css" rel="stylesheet">
+<link href="./resources/styles/jquery.ui.css" rel="stylesheet">
+<link href="./resources/styles/jquery.ui.html4.css" rel="stylesheet">
+<link href="./resources/styles/steve-jobs.css" rel="stylesheet">
+<link href="./resources/styles/steve-jobs-html4.css" rel="stylesheet">
 <!-- <style type="text/css">
 body{
 	/* background:#ccc; */
