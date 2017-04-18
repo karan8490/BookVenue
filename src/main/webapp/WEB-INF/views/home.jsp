@@ -12,8 +12,8 @@ body{
 	/* background:#ccc; */
 }
 #magazine{
-	width:1080px;
-	height:650px;
+	width:80%;
+	height:70%;
 }
 #magazine .turn-page{
 	background-color:#ccc;
