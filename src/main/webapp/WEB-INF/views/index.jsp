@@ -29,9 +29,14 @@
 
     <!-- Custom styles for this template -->
     <link href="./resources/styles/carousel.css" rel="stylesheet">
+    <link href="./resources/styles/global.css">
+    <style>
+
+</style>
   </head>
 <!-- NAVBAR
 ================================================== -->
+
   <body>
     <div class="navbar-wrapper dispNone" >
       <div class="container">
@@ -72,11 +77,27 @@
       </div>
     </div>
 
+	<!-- background image ===========================================-->
+	
+	<div class="demo-header-image demo-header">
+		<div class="navbar-default" style="padding: 19px 0 0; margin: 0 auto;background: 0; box-shadow: none;color: #fff;">
+			<div class="container pd_0">
+				<div class="home_logo"></div>
+			</div>
+			<div class="col-xs-6">
+				
+			</div>
+			
+		</div>
+	</div>
+	</div>
+	<!-- ============================================================-->
+
 
     <!-- Carousel
     ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
+    <!-- <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      Indicators
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -122,7 +143,7 @@
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
-    </div><!-- /.carousel -->
+    </div> --><!-- /.carousel -->
 
 
     <!-- Marketing messaging and featurettes

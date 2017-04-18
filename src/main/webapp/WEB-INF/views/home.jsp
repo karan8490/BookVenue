@@ -23,9 +23,19 @@ body{
 </head>
 <body>
 
-<div id="magazine" style="margin-left:8%">
+<div id="magazine" style="marugin-left:8%">
 	<div style="background-image:url('https://a0.muscache.com/im/pictures/c6f826a6-71ef-4668-9d46-a394f4dc636b.jpg?aki_policy=poster');"></div>
-	<div style="background-image:url('https://a0.muscache.com/ac/pictures/7bff51c1-3c35-47a5-a86c-5ea75ab6be6c.jpg?interpolation=lanczos-none&size=large&output-format=jpg&output-quality=70');"></div>
+	<div >This is test content 
+		<ul>
+			<li>test1</li>
+			<li>test1</li>
+			<li>test1</li>
+			<li>test1</li>
+			<li>test1</li>
+			<li>test1</li>
+			<li>test1</li>
+		</ul>
+	</div>
 	<div style="background-image:url('https://a0.muscache.com/ac/pictures/04598d26-f40d-4c44-8725-99e157fbb7ab.jpg?interpolation=lanczos-none&size=large&output-format=jpg&output-quality=70');"></div>
 	<div style="background-image:url('https://a0.muscache.com/ac/pictures/d915ce17-d822-426d-b549-0c7b641fec56.jpg?interpolation=lanczos-none&size=large&output-format=jpg&output-quality=70');"></div>
 	<div style="background-image:url('https://a0.muscache.com/ac/pictures/ebbb24af-52d6-490c-89e9-16cc560140e8.jpg?interpolation=lanczos-none&size=large&output-format=jpg&output-quality=70');"></div>
