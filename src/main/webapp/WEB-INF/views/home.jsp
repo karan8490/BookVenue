@@ -5,11 +5,11 @@
 <!--[if IE 9 ]>    <html lang="en" class="ie9"> <![endif]-->
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 <head>
-<script type="text/javascript" src="../../extras/jquery.min.1.7.js"></script>
-<script type="text/javascript" src="../../extras/jquery-ui-1.8.20.custom.min.js"></script>
-<script type="text/javascript" src="../../extras/jquery.mousewheel.min.js"></script>
-<script type="text/javascript" src="../../extras/modernizr.2.5.3.min.js"></script>
-<script type="text/javascript" src="../../lib/hash.js"></script>
+<script type="text/javascript" src="./resources/extras/jquery.min.1.7.js"></script>
+<script type="text/javascript" src="./resources/extras/jquery-ui-1.8.20.custom.min.js"></script>
+<script type="text/javascript" src="./resources/extras/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="./resources/extras/modernizr.2.5.3.min.js"></script>
+<script type="text/javascript" src="./resources/lib/hash.js"></script>
 </head>
 <body>
 
@@ -280,9 +280,9 @@ $('#canvas').css({visibility: 'hidden'});
 
 yepnope({
 	test : Modernizr.csstransforms,
-	yep: ['../../lib/turn.min.js'],
-	nope: ['../../lib/turn.html4.min.js', 'css/jquery.ui.html4.css', 'css/steve-jobs-html4.css'],
-	both: ['js/steve-jobs.js', 'css/jquery.ui.css', 'css/steve-jobs.css'],
+	yep: ['./resources/lib/turn.min.js'],
+	nope: ['./resources/lib/turn.html4.min.js', './resources/styles/jquery.ui.html4.css', './resources/styles/steve-jobs-html4.css'],
+	both: ['./resources/script/steve-jobs.js', './resources/styles/jquery.ui.css', './resources/styles/steve-jobs.css'],
 	complete: loadApp
 });
 
