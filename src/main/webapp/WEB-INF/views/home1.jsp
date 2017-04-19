@@ -1,18 +1,33 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page session="false" %>
 <!doctype html>
-<!--[if lt IE 7 ]> <html lang="en" class="ie6"> <![endif]-->
-<!--[if IE 7 ]>    <html lang="en" class="ie7"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="en" class="ie8"> <![endif]-->
-<!--[if IE 9 ]>    <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+
+<html>
 <head>
-<script type="text/javascript" src="../../extras/jquery.min.1.7.js"></script>
-<script type="text/javascript" src="../../extras/jquery-ui-1.8.20.custom.min.js"></script>
-<script type="text/javascript" src="../../extras/jquery.mousewheel.min.js"></script>
-<script type="text/javascript" src="../../extras/modernizr.2.5.3.min.js"></script>
-<script type="text/javascript" src="../../lib/hash.js"></script>
+<script type="text/javascript" src="resources/script/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="resources/script/turn.min.js"></script>
+<script type="text/javascript" src="resources/script/steve-jobs.js"></script>
+<link href="./resources/styles/home-page.css" rel="stylesheet">
+<link href="./resources/styles/jquery.ui.css" rel="stylesheet">
+<link href="./resources/styles/jquery.ui.html4.css" rel="stylesheet">
+<link href="./resources/styles/steve-jobs.css" rel="stylesheet">
+<link href="./resources/styles/steve-jobs-html4.css" rel="stylesheet">
+<!-- <style type="text/css">
+body{
+	/* background:#ccc; */
+}
+#magazine{
+	width:80%;
+	height:70%;
+}
+#magazine .turn-page{
+	background-color:#ccc;
+	background-size:100% 100%;
+}
+</style> -->
 </head>
 <body>
-
+<p></p><br><br><p></p>
 <div id="canvas">
 	<div id="book-zoom">
 		<div class="sj-book">
@@ -28,11 +43,60 @@
 		<div id="slider"></div>
 	</div>
 </div>
+<div class="gradient"></div>
+
+</div>
+
+<!-- <div id="magazine" style="marugin-left:8%">
+	<div style="background-image:url('https://a0.muscache.com/im/pictures/c6f826a6-71ef-4668-9d46-a394f4dc636b.jpg?aki_policy=poster');"></div>
+	<div >This is test content 
+		<ul>
+			<li>test1</li>
+			<li>test1</li>
+			<li>test1</li>
+			<li>test1</li>
+			<li>test1</li>
+			<li>test1</li>
+			<li>test1</li>
+		</ul>
+	</div>
+	<div style="background-image:url('https://a0.muscache.com/ac/pictures/04598d26-f40d-4c44-8725-99e157fbb7ab.jpg?interpolation=lanczos-none&size=large&output-format=jpg&output-quality=70');"></div>
+	<div style="background-image:url('https://a0.muscache.com/ac/pictures/d915ce17-d822-426d-b549-0c7b641fec56.jpg?interpolation=lanczos-none&size=large&output-format=jpg&output-quality=70');"></div>
+	<div style="background-image:url('https://a0.muscache.com/ac/pictures/ebbb24af-52d6-490c-89e9-16cc560140e8.jpg?interpolation=lanczos-none&size=large&output-format=jpg&output-quality=70');"></div>
+	<div style="background-image:url('https://a0.muscache.com/ac/pictures/1d8ecdb4-da01-4d35-9c9e-2ef6ca604eca.jpg?interpolation=lanczos-none&size=large&output-format=jpg&output-quality=70');"></div>
+</div> -->
 
 
-<script type="text/javascript">
+<!-- <script type="text/javascript">
+	$(window).ready(function() {
+		$('#magazine').turn({
+							display: 'double',
+							acceleration: true,
+							gradients: !$.isTouch,
+							elevation:30,
+							/*autocenter:true,*/
+							when: {
+								turned: function(e, page) {
+									console.log('Current view: ', $(this).turn('view'));
+								}
+							}
+						});
+	});
+	
+	$("#magazine").bind("ontouchstart", function(event, pageObject, corner) {
+	});
 
-function loadApp() {
+	$(window).bind('keydown', function(e){
+		if (e.keyCode==39)
+			$('#magazine').turn('previous');
+		else if (e.keyCode==37)
+			$('#magazine').turn('next');
+			
+	});
+</script>
+ -->
+ <script type="text/javascript">
+ function loadApp() {
 	
 	var flipbook = $('.sj-book');
 
@@ -278,15 +342,16 @@ $('#canvas').css({visibility: 'hidden'});
 
 // Load turn.js
 
-yepnope({
+/* yepnope({
 	test : Modernizr.csstransforms,
 	yep: ['../../lib/turn.min.js'],
 	nope: ['../../lib/turn.html4.min.js', 'css/jquery.ui.html4.css', 'css/steve-jobs-html4.css'],
 	both: ['js/steve-jobs.js', 'css/jquery.ui.css', 'css/steve-jobs.css'],
 	complete: loadApp
-});
+}); */
 
 </script>
-
+ 
+ 
 </body>
 </html>
