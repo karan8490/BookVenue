@@ -5,6 +5,7 @@
 <!--[if IE 9 ]>    <html lang="en" class="ie9"> <![endif]-->
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 <head>
+<link href="./resources/styles/global.css" rel="stylesheet">
 <script type="text/javascript" src="./resources/extras/jquery.min.1.7.js"></script>
 <script type="text/javascript" src="./resources/extras/jquery-ui-1.8.20.custom.min.js"></script>
 <script type="text/javascript" src="./resources/extras/jquery.mousewheel.min.js"></script>
@@ -13,7 +14,12 @@
 </head>
 <body>
 
+<div class="navbar-default" style="padding: 19px 0 0; margin: 0 auto;background: 0; box-shadow: none;color: #fff;">
+	<jsp:include page="./jspincludes/vbheader.jsp"></jsp:include>
+</div>
 <div id="canvas">
+	
+
 	<div id="book-zoom">
 		<div class="sj-book">
 			<div depth="5" class="hard"> <div class="side"></div> </div>

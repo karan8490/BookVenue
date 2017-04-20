@@ -81,9 +81,7 @@
 	
 	<div class="demo-header-image demo-header">
 		<div class="navbar-default" style="padding: 19px 0 0; margin: 0 auto;background: 0; box-shadow: none;color: #fff;">
-			<div class="container pd_0">
-				<div class="home_logo"></div>
-			</div>
+			<jsp:include page="./jspincludes/vbheader.jsp"></jsp:include>
 			<div class="col-xs-6">
 				
 			</div>

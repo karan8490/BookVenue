@@ -29,12 +29,10 @@ function updateDepth(book, newPage) {
 }
 
 function loadPage(page) {
-	alert("hello");
 	$.ajax({
 		url: './vb/detailsbook/',
 		data: "page="+page
 	}).done(function(pageHtml) {
-		alert("hello2");
 			$('.sj-book .p' + page).html(pageHtml.replace('views/pages/', ''));
 	});
 
